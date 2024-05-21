@@ -12,8 +12,7 @@ The project link for the Youtube Transcript Summarizer :- https://colab.research
 
 
 High-Level Approach
-
-• Find the text / subtitle of YouTube Video Id that you use using the Python API.
-• Make text summaries of text found using HuggingFace transformers.
-• Create a Flask backend REST API to display client summarization service.
-• Upgrade the chrome extension that will use the backend API to display user text.
+1) Find the text / subtitle of YouTube Video Id that you use using the Python API.
+2) Make text summaries of text found using HuggingFace transformers.
+3) Create a Flask backend REST API to display client summarization service.
+4) Upgrade the chrome extension that will use the backend API to display user text.
